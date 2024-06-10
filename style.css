@@ -1,0 +1,88 @@
+html {
+    background-color: aqua;
+    display: absolute;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.card {
+    flex-basis: 300px;  
+    
+}
+
+h1, h2, p {
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+h1, p {
+    color: #ffffff;
+}
+h1 {
+
+}
+h2 {
+    font-size: 60px;
+    
+}
+p {
+    
+}
+span {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.card-1 > .title {
+    padding-top: 1px;
+    background: linear-gradient(#987604, #79022a);
+}
+.card-2 > .title {
+    padding-top: 1px;
+    background: linear-gradient(#0399e4, #0a0250);
+}
+.card-3 > .title {
+    padding-top: 1px;
+    background: linear-gradient(#569140, #027362);
+}
+
+.title {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+button {
+    color: #ffffff;
+    padding: 10px 30px;
+    width: 50%;
+}
+
+.card-1 button {
+    background: linear-gradient(#987604, #79022a);
+}
+.card-2 button {
+    background: linear-gradient(#0399e4, #0a0250);
+}
+.card-3 button {
+    background: linear-gradient(#569140, #027362);
+}
+
+button:hover {
+    transform: scale(1.02);
+}
