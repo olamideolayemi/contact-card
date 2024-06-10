@@ -6,6 +6,7 @@ html {
 .container {
     display: flex;
     justify-content: center;
+    flex: 1;
     align-items: center;
     gap: 20px;
     height: 80vh;
@@ -89,4 +90,11 @@ button {
 
 button:hover {
     transform: scale(1.02);
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        flex: 1;
+    }
 }
