@@ -1,13 +1,14 @@
 html {
-    background-color: aqua;
+    background-color: rgba(223, 242, 242, 0.816);
     display: absolute;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
-    
+    height: 80vh;
 }
 
 .card {
@@ -36,6 +37,9 @@ p {
 span {
     font-size: 20px;
     font-weight: lighter;
+}
+li {
+    list-style: none;
 }
 
 .card-1 > .title {
